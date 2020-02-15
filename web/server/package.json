@@ -1,0 +1,28 @@
+{
+  "name": "gameboard-server",
+  "version": "0.0.1",
+  "description": "Small example of requesters project written with JS stack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafferchance/jackieEx.git"
+  },
+  "keywords": [
+    "example",
+    "node",
+    "expressx"
+  ],
+  "author": "Chanceler Shaffer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shafferchance/jackieEx/issues"
+  },
+  "homepage": "https://github.com/shafferchance/jackieEx#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
