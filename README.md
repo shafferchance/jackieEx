@@ -4,9 +4,9 @@
 - Body Parser (So that data will be formatted as expected in body element of HTTP Req Object)
 - Native Web Components (customElements and ShadowDOM)
 
-### Basic layout
-Server serves static content
-Static will collect player information
-Initial players with server and begin match
-Utilizing PubSub System Players will subscribe to state updates
-Front end wil react to state updates through messaging system
+### Abstract execution of web side
+1. Server serves static content
+2. Static will collect player information
+3. Initial players with server and begin match
+4. Utilizing PubSub System Players will subscribe to state updates
+5. Front end wil react to state updates through messaging systemg
