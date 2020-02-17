@@ -1,0 +1,22 @@
+.root {
+    display: grid;
+    grid-template-columns: 15% 30% auto 20%;
+    grid-template-rows: repeat(3, 33%);
+}
+
+[name="main-slot"] {
+    display: inherit; /* Apparently with slots you must explictly inherit display object for slot...I guess */
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+[name="live-info-slot"] {
+    display: inherit; /* Apparently with slots you must explictly inherit display object for slot...I guess */
+    grid-row: 1 / 2;
+    grid-column: 1 / 1;
+}
+
+[name="setting-slot"] {
+    display: block;
+    position: absolute;
+}

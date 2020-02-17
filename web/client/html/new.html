@@ -1,18 +1,18 @@
 <template>
-    <div class = "playerAdd">
-        <form id = "create">
+    <div slot="main-slot" class="playerAdd">
+        <form id="create">
             <label for = "name">Name: </label>
             <input name="name" type="text"/>
             <label for = "color">Color: </label>
             <input name="color" type="color" />
             <button type="submit">Submit</button>
         </form>
+        <button id="start">Start</button>
     </div>
-    <div class = "playerList">
+    <div slot="live-info-slot"  class="playerList">
         <!-- Javascript will populate this -->
     </div>
-    <div class = "settings">
+    <div slot="settings-slot" class="settings">
         <span>More will come here later</span>
     </div>
-    <button id = "start">Start</button>
 </template>

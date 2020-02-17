@@ -1,0 +1,16 @@
+body {
+    width: 90vw;
+    height: 80vh;
+}
+
+.player-card {
+    width: 100px;
+    height: 50px;
+    display: flex;
+}
+
+.player-card-color {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
