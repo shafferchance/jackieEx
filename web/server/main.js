@@ -11,7 +11,7 @@ const Main = require('./controllers/main.controller');
 app.use(bodyParser.json());
 
 // Routes
-app.use(express.static(path.resolve('..','client'))); // This is serving the front end (HTML, CSS, JS)
+app.use(express.static(path.resolve('..','client-simple'))); // This is serving the front end (HTML, CSS, JS)
 app.use('/', Main);
 
 // Starting server

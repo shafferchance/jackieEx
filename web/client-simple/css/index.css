@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    height: 80vh;
+}
+
+.board-container {
+    display: grid;
+    grid-template-columns: repeat(120px, 16);
+    grid-template-rows: repeat(120px, 16);
+    width: 95vw;
+    height: 95vh;
+    /*justify-content: space-between;
+    align-content: space-between;*/
+}
+  
+.board-piece {
+    border: 3px black solid;
+    text-align: center;
+}
+
+.button {
+    transition: 100ms;
+    display: block;
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    background-color: beige;
+    border: 1px solid lightgrey;
+}
+
+.button:hover {
+    background-color: lightgrey;
+    transition: 100ms;
+    text-shadow: lightskyblue;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+  
